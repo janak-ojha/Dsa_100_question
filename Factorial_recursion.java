@@ -8,7 +8,7 @@ public class Factorial_recursion {
         return facto(n-1, fac);
     }
     public static void main(String[] args) {
-       int res = facto(0, 1);
+       int res = facto(5, 1);
        System.out.println(res);
         
     }
