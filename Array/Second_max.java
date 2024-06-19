@@ -4,15 +4,20 @@ public class Second_max {
 
     static void secmax(int arr[])
     {
-        int max= arr[0];
-        int sm=0;
-        for(int i=1;i<arr.length;i++)
+     
+        int max= Integer.MIN_VALUE;
+        int sm = Integer.MIN_VALUE;
+        
+        for(int i=0;i<arr.length;i++)
         {
-            if(arr[max]<arr[i])
+            if(arr[i]>max)
             { 
                
-               sm=arr[max];
-               arr[max]=arr[i];
+               sm=max;
+               max=arr[i];
+            }
+            else if(arr[i]>sm && arr[i]!=max){
+                sm=arr[i];
             }
            
         }
@@ -22,7 +27,7 @@ public class Second_max {
     }
     
     public static void main(String[] args) {
-        int arr[] ={1,2,3,4,5,6};
+        int arr[] ={3,8,2,5,7,8};
         secmax(arr);
         
         
