@@ -27,7 +27,7 @@ public class Second_max {
     }
     
     public static void main(String[] args) {
-        int arr[] ={3,8,2,5,7,8};
+        int arr[] ={9,8,2,5,7,8};
         secmax(arr);
         
         
