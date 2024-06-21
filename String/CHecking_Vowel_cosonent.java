@@ -6,7 +6,7 @@ public class CHecking_Vowel_cosonent {
         int ccount=0;
         for(int i=0;i<s.length();i++){
             char ch = Character.toLowerCase(s.charAt(i));
-        if(s.charAt(i) == 'a' || s.charAt(i) == 'e' || s.charAt(i)=='i' || s.charAt(i) == '0' || s.charAt(i) == 'u'){
+        if(ch == 'a' || ch == 'e' || ch=='i' || ch == '0' || ch == 'u'){
             vcount =vcount+1;
         }
         else if(s.charAt(i)>='a' && s.charAt(i)<'z'){
@@ -14,12 +14,12 @@ public class CHecking_Vowel_cosonent {
         }
         }
         System.out.println("total vowel are:"+vcount);
-        System.out.println("total consonent are :"+ccount);
+        System.out.println("total consonent are :"+ccount); 
         
     }
 
     public static void main(String[] args) {
-        String s ="janak";
+        String s ="janakaaaaa";
         vow_co(s);
         
     }

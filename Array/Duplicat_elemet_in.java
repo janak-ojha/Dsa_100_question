@@ -31,7 +31,7 @@ public class Duplicat_elemet_in {
     
 
     public static void main(String[] args) {
-        int arr [] = {1,2,3,5};
+        int arr [] = {1,2,3,3,3,5};
         duplicate(arr);
 
 
