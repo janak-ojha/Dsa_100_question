@@ -3,10 +3,16 @@ package Array;
 public class SecondMin {
     static void sm(int arr[])
     {
-        // int min=arr[0];
-        // int smim=arr[0];
-        int min=Integer.MAX_VALUE;
-        int smim= Integer.MAX_VALUE;
+       int smim;
+       int min;
+       if(arr[0]<arr[1]){
+        min=arr[0];
+        smim=arr[1];
+       }
+       else{
+        min=arr[1];
+        smim=arr[0];
+       }
         for(int i=0;i<arr.length;i++)
     {
         if(arr[i]<min)

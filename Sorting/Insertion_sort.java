@@ -11,7 +11,7 @@ public class Insertion_sort {
                 arr[j+1]=arr[j];
                 j--;
 
-                
+                        
             }
             arr[j+1]=key;
         }
