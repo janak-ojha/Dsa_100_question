@@ -4,10 +4,10 @@ public class Selection_sort {
     static void selec(int arr[])
     {
         int n=arr.length;
-        for(int i=0;i<n-1;i++)
+        for(int i=0;i<=n-1;i++)
         {
             int min_index=i;
-            for( int j=i+1;j<n;j++)
+            for( int j=i+1;j<=n-1;j++)
             if(arr[min_index]>arr[j])
             {
                 min_index=j;
@@ -22,7 +22,7 @@ public class Selection_sort {
         }
     }
     public static void main(String[] args) {
-        int arr[] = {1,4,3,5,2,6,7};
+        int arr[] = {1,4,3,5,7,6,2};
         PrinteS(arr);
         selec(arr);
         PrinteS(arr);

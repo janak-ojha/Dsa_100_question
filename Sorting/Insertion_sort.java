@@ -3,7 +3,8 @@ package Sorting;
 public class Insertion_sort {
     static void insert(int arr[])
     {
-        for(int i=1;i<arr.length;i++)
+        int n=arr.length;
+        for(int i=0;i<=n-1;i++)
         {
             int key =arr[i];
             int j= i-1;
