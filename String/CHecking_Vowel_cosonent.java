@@ -9,7 +9,7 @@ public class CHecking_Vowel_cosonent {
         if(ch == 'a' || ch == 'e' || ch=='i' || ch == '0' || ch == 'u'){
             vcount =vcount+1;
         }
-        else if(s.charAt(i)>='a' && s.charAt(i)<'z'){
+        else if(s.charAt(i)>='a' && s.charAt(i)<='z'){
             ccount = ccount+1;
         }
         }
@@ -19,7 +19,7 @@ public class CHecking_Vowel_cosonent {
     }
 
     public static void main(String[] args) {
-        String s ="janakaaaaa";
+        String s ="janakaaaaazz";
         vow_co(s);
         
     }

@@ -10,6 +10,7 @@ public class Merge_sort {
         while (idx1<=mid && idx2<=ei) {
             if(arr[idx1]<=arr[idx2]){
                 merge[x++] = arr[idx1++];
+                
             }
             else{
                 merge[x++] = arr[idx2++];
