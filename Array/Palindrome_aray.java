@@ -1,5 +1,4 @@
 package Array;
-
 public class Palindrome_aray {
     static void palin(int arr[])
     {  boolean p = true;
@@ -10,11 +9,8 @@ public class Palindrome_aray {
             {
                 p=false;
             }
-           
             f++;
-            l--;
-
-            
+            l--;         
         }
         if(p)
         {

@@ -1,5 +1,4 @@
 package Array;
-
 public class Smallest_elem {
     static void min(int arr[])
     {

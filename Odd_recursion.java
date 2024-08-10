@@ -5,7 +5,7 @@ public class Odd_recursion {
         {
             return sum;
         }
-        if(n%2==0){
+        if(n%2==1){
         sum=sum+n;
         
         }

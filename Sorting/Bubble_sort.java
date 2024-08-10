@@ -1,5 +1,4 @@
 package Sorting;
-
 public class Bubble_sort {
     static void bubb(int arr[])
     {
@@ -12,22 +11,16 @@ public class Bubble_sort {
                 int temp=arr[j];
                 arr[j]=arr[j+1];
                 arr[j+1]=temp;
+            }                       
             }
-           
-            
-            }
-        }
-        
-        
+        }                
     }
     public static void main(String[] args) {
         int arr[]={3,2,1,5,4,6};
         Printe(arr);
        
         bubb(arr);
-        Printe(arr);
-        
-        
+        Printe(arr);       
     }
     static void Printe(int arr[])
     {
@@ -36,7 +29,6 @@ public class Bubble_sort {
             System.out.print(arr[i]+" " );
         }
         System.out.println();
-    }
-    
+    }    
 }
 
