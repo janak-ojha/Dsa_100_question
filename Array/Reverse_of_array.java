@@ -1,5 +1,4 @@
 package Array;
-
 public class Reverse_of_array {
     static void revr(int[] arr)
     {
@@ -10,11 +9,9 @@ public class Reverse_of_array {
             arr[start]=arr[end];
             arr[end]=temp;
             start++;
-        end--;
-    }
-            
-        }
-        
+            end--;
+    }           
+        }        
     public static void main(String[] args) {
         int arr[] = {1, 2, 3};
         for(int i=0;i<arr.length;i++)
@@ -28,7 +25,5 @@ public class Reverse_of_array {
             System.out.print(arr[i]+" ");
         }
         System.out.println();
-
-    }
-    
+    }    
 }

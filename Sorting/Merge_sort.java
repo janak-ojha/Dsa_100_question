@@ -1,5 +1,5 @@
 package Sorting;
-
+// O(nlogn) in each case: For divide it takes : (log_n) and for merging: (n).
 public class Merge_sort {
     static void conquer(int arr[], int si,int ei ,int mid)
     {
@@ -9,26 +9,22 @@ public class Merge_sort {
         int x=0;
         while (idx1<=mid && idx2<=ei) {
             if(arr[idx1]<=arr[idx2]){
-                merge[x++] = arr[idx1++];
-                
+                merge[x++] = arr[idx1++];               
             }
             else{
                 merge[x++] = arr[idx2++];
             }
         }
         while (idx1 <= mid) {
-            merge[x++] = arr[idx1++];
-            
+            merge[x++] = arr[idx1++];            
         }
         while (idx2 <= ei) {
-            merge[x++] =arr[idx2++];
-            
+            merge[x++] =arr[idx2++];            
         }
         for(int i=0,j=si;i<merge.length;i++,j++)
         {
             arr[j] =merge[i];
         }
-
     }
     static void divide(int arr[],int si,int ei)
     {
@@ -49,7 +45,5 @@ public class Merge_sort {
             System.out.print(arr[i]+" ");
         }
         System.out.println();
-
-    }
-    
+    }    
 }

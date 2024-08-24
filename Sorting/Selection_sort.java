@@ -1,6 +1,6 @@
 package Sorting;
-
-public class Selection_sort {
+// All case :O(n2)
+public class Selection_sort{
     static void selec(int arr[])
     {
         int n=arr.length;
@@ -10,15 +10,11 @@ public class Selection_sort {
             for( int j=i+1;j<=n-1;j++)
             if(arr[min_index]>arr[j])
             {
-                min_index=j;
-                
-                
+              min_index=j;                
             }
             int temp =arr[min_index];
             arr[min_index]=arr[i];
             arr[i]=temp;
-
-
         }
     }
     public static void main(String[] args) {
@@ -33,7 +29,7 @@ public class Selection_sort {
         {
             System.out.print(arr[i]+" ");
         }
-        System.out.println();
-    }
-    
+    System.out.println();
+    }    
 }
+

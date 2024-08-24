@@ -3,7 +3,6 @@ public class Reverse_of_String {
     static void revrstr(String j)
     {
         String revr="";
-        char ch;
         for(int i=0;i<j.length();i++)
         {
             char c=j.charAt(i);
@@ -11,11 +10,8 @@ public class Reverse_of_String {
         }
         System.out.println(revr);      
         }
-
-    
     public static void main(String[] args) {
         String j="janak";     
         revrstr(j);     
-    }
-    
+    } 
 }

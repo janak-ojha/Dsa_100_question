@@ -1,4 +1,7 @@
 package Sorting;
+// Best Case O(n): when array is already sorted when we have to confirm.
+// Average Case O(n2): when array is element are in random order.
+// Worst Case O(n2): when array is in reverse order.
 public class Bubble_sort {
     static void bubb(int arr[])
     {

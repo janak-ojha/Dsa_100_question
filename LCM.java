@@ -14,17 +14,13 @@ public class LCM {
         {
             System.out.println("lcmn ="+ " "+max);
             break;
-
         }
         max++;
-    }
-       
+}      
     }
     public static void main(String[] args) {
         int a=10;
         int b=15;
-        lc(10, 15);
-        
-    }
-    
+        lc(10, 15);        
+    }    
 }

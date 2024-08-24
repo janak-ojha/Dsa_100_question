@@ -1,5 +1,7 @@
 package Search;
-
+//  Best case O(1): when searched element is first
+// Average case O(n): when element is somewhere middle of array 
+// Worst case O(n): when element is not present in array.
 public class Linear_search {
     static int binar(int arr[],int x){
         for( int i=0;i<arr.length;i++){

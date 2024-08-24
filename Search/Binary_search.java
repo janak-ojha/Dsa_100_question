@@ -1,5 +1,7 @@
 package Search;
-
+// Best Case O(1) : when element is middle of array 
+// Average Case O(log n) : when we have to find in other place 
+// Worst Case O(log n) : when we element is in start and end of array
 public class Binary_search {
     static int binar(int arr[],int element){
         int start=0;

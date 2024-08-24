@@ -1,12 +1,9 @@
 public class Prime_num {
-
     static boolean ispr(int a)
-    {
-        
+    {       
         if(a==1)
         {
             return false;
-
         }
         if(a==2 || a==3)
         {
@@ -22,12 +19,9 @@ public class Prime_num {
             {
                 return false;
             }
-
         }
         return true;
-
     }
-
     static boolean pre(int n)
     {
         for(int i=2;i*i<n;i++)
@@ -50,7 +44,6 @@ public class Prime_num {
         }
         return true;
     }
-
     public static void main(String[] args) {
         
         System.out.println(ispr(24));
@@ -61,8 +54,6 @@ public class Prime_num {
         }
         else{
             System.out.println("not prime");
-        }
-        
-    }
-    
+        }       
+    }    
 }

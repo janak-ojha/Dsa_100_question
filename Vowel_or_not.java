@@ -8,12 +8,9 @@ public class Vowel_or_not {
         else{
             System.out.println("consonent");
         }
-
     }
     public static void main(String[] args) {
-        vow('e');
-        
-        
+        vow('e');                
     }
     
 }

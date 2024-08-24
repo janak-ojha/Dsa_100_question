@@ -10,9 +10,6 @@ public class Squre_of_no {
     }
     public static void main(String[] args) {
         int r=pow(2, 3);
-        System.out.println(r);
-
-        
-    }
-    
+        System.out.println(r);       
+    }    
 }

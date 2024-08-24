@@ -10,17 +10,12 @@ public class HCF {
         }
         while(true){ if(a%min==0 && b%min==0) {
             return min;
-            
         }
-        min--;
-        
-    }
-    
+        min--;        
+    }   
     }
     public static void main(String[] args) {
       int ans=  hc(36, 12);
-      System.out.println(ans);
-        
-    }
-    
+      System.out.println(ans);        
+    }    
 }

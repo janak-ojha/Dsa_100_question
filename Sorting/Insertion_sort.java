@@ -1,5 +1,5 @@
 package Sorting;
-
+//same as bubble sort
 public class Insertion_sort {
     static void insert(int arr[])
     {
@@ -10,9 +10,7 @@ public class Insertion_sort {
             int j= i-1;
             while (j>=0 && arr[j]>key) {
                 arr[j+1]=arr[j];
-                j--;
-
-                        
+                j--;                        
             }
             arr[j+1]=key;
         }
@@ -24,17 +22,13 @@ public class Insertion_sort {
         insert(arr);
         printe(arr);
         System.out.println("sfter");
-        
-
     }
     static void printe(int arr[])
     {
         for(int i=0;i<arr.length;i++)
         {
             System.out.print(arr[i]+" ");
-
         }
         System.out.println();
-    }
-    
+    }    
 }
