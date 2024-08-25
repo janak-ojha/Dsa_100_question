@@ -3,10 +3,10 @@ public class Rotate_array {
     public static int[] rotate(int arr[],int j)
     {
         int n= arr.length;
-        reverse(arr,0,n-1);
-        reverse(arr,0,j-1);
-        reverse(arr,j,n-1);
-        return arr;
+        reverse(arr,0,n-1);  
+        reverse(arr,0,j-1);  
+        reverse(arr,j,n-1);   
+        return arr;  
     }
     static void reverse(int arr[] ,int start,int end)
     {   
