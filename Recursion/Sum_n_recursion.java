@@ -1,5 +1,4 @@
 package Recursion;
-
 public class Sum_n_recursion {
     static int sum(int n)
     {
@@ -11,8 +10,6 @@ public class Sum_n_recursion {
     }
     public static void main(String[] args) {
         int su=sum(10);
-        System.out.println(su);
-        
-    }
-    
+        System.out.println(su);        
+    }    
 }

@@ -3,7 +3,7 @@ package Leet_code_Array;
 public class Best_time_to_buy_and_sell_1 {
     static int sell(int arr[])
     {
-        if(arr == null && arr.length == 0){
+        if(arr == null || arr.length == 0){
             return 0;
         }
         int maxprofit = 0;

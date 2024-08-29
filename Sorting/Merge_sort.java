@@ -1,7 +1,7 @@
 package Sorting;
 // O(nlogn) in each case: For divide it takes : (log_n) and for merging: (n).
 public class Merge_sort {
-    static void conquer(int arr[], int si,int ei ,int mid)
+    static void conquer(int arr[], int si , int ei , int mid )
     {
         int merge[] =new int[ei-si+1];
         int idx1 = si;
@@ -30,7 +30,7 @@ public class Merge_sort {
     {
         if(si<ei)
         {
-            int mid=si+(ei-si)/2;
+            int mid = si+(ei-si)/2;
             divide(arr, si, mid);
             divide(arr, mid+1, ei);
             conquer(arr,si,ei,mid);
