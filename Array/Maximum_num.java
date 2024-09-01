@@ -5,7 +5,7 @@ public class Maximum_num{
         int m=arr[0];
         for(int i=1;i<arr.length;i++)
         {           
-            if(arr[i]>arr[m])
+            if(arr[i]>m)
             {
                 m=arr[i];
             }
@@ -13,7 +13,7 @@ public class Maximum_num{
         System.out.println(m);
     }
     public static void main(String[] args) {
-        int arr[]={1,2,3,4,5};
+        int arr[]={1,2,13,4,5};
         max(arr);             
     }
     

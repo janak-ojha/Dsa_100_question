@@ -19,7 +19,7 @@ public class Majority {
         }  
         return  -1;  
     }
-    public static void main(String[] args) {
+    public static void main(String[] args) {    
         int arr[] ={2,2,2,3,3,3,2,};   
         int res = majority(arr);      
         System.out.println(res);       

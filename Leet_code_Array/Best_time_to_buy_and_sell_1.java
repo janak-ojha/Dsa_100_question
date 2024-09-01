@@ -1,5 +1,4 @@
 package Leet_code_Array;
-
 public class Best_time_to_buy_and_sell_1 {
     static int sell(int arr[])
     {
@@ -18,19 +17,14 @@ public class Best_time_to_buy_and_sell_1 {
                     if(profit>maxprofit)
                     {
                         maxprofit = profit;
-                    }
-                }
-            
+                    }   
+                }            
             }
-            return maxprofit;
-           
-      
+            return maxprofit;                
     }
     public static void main(String[] args) {
         int arr[]={6,7,4,6,5,9};
         int res =sell(arr);
-        System.out.println(res);
-        
-    }
-    
+        System.out.println(res);        
+    } 
 }
