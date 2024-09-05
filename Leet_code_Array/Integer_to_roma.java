@@ -11,9 +11,7 @@ public class Integer_to_roma {
             while(num >= values[i])
             {
                 num -=values[i];
-                jk.append(symbols[i]);;
-
-
+                jk.append(symbols[i]);
             }
         }
         return jk.toString();

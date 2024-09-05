@@ -1,5 +1,4 @@
 package Leet_code_Array;
-
 public class Length_of_last_word {
     static int len(String s)
     {
@@ -21,8 +20,6 @@ public class Length_of_last_word {
     }
     public static void main(String[] args) {
         String s = "janak raj ojhaa";
-        System.out.println(len(s));
-        
+        System.out.println(len(s));       
     }
-    
 }
