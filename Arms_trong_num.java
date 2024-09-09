@@ -4,21 +4,18 @@ public class Arms_trong_num {
         int temp=n;
         while(temp>0) {
             int digit=temp%10;
-            sum+= pow(digit,power); 
-            temp/=10;
+            sum+= pow(digit,power);  
+            temp/=10;   
         }
-        return sum == n;
-        
-        
+        return sum == n;    
     }
-    static int pow(int base ,int exp)
+    static int pow(int base ,int exp)  
     {
-        int total=1;
-        for(int i=0;i<exp;i++){
-        total = base*total;
+        int total=1;  
+        for(int i=0;i<exp;i++){  
+        total = base*total;   
         }
-        return total;
-        
+        return total;  
     }
     public static void main(String[] args) {
         int n=153;
@@ -30,8 +27,6 @@ public class Arms_trong_num {
        }
        else{
         System.out.println("not is armstrong");
-       }
-        
-    }
-    
+       }  
+    }  
 }
