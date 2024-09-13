@@ -14,8 +14,6 @@ public class Pascline_triangle {
                 num = num*(i-k)/(k+1);
             }
             System.out.println();
-           
-
         }
     }
     public static void main(String[] args) {
