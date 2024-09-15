@@ -45,6 +45,30 @@ public class linked_list {
         currentNode.next = newNode;
     }
 
+    public void add_nth(int n,String data)
+    {
+        Node newnode = new Node(data);
+
+        if(n==1)
+        {
+            newnode.next= head;
+            head=newnode;
+            return;
+
+        }
+        Node currentnode = head;
+        for(int i=0;i<n-1;i++)
+        {
+            if(currentnode.next == null)
+            {
+                System.out.println("index out of bound");
+            }
+            currentnode=currentnode.next;
+        }
+        newnode.next= currentnode.next;
+        currentnode.next=newnode;
+    }
+
     public void delfirst()
     {
         if(head == null)
@@ -84,10 +108,28 @@ public class linked_list {
             System.out.println("empty");
             return;
         }
-        Node curr=head;
-        while (condition) {
-            
+        if(n==1)
+        {
+            head = null;
         }
+        Node current = head;
+        for(int i=0;i<n-1;i++)
+        {
+            if(current.next == null){
+                System.out.println("postion out of index");
+                return;
+            }
+            current=current.next;
+        }
+        if(current.next != null)
+        {
+            current.next = current.next.next;
+        }
+        else{
+            System.out.println("index out of bound");
+        }
+        
+
     }
 
     //print

@@ -21,7 +21,8 @@ public class Stack_using_Arrray {
             System.out.println("stack is overflow . stack is full");
             return ;
         }
-        stackArray[++top] = value;
+        top++;
+        stackArray[top] = value;
     }
 
     // poping pr deleting
@@ -33,7 +34,8 @@ public class Stack_using_Arrray {
             System.out.println("stack is  underflow . stack is emoty");
             return -1;
         }
-        return stackArray[top--];
+        top--;
+        return stackArray[top];
     }
 
     //peek to get top value without removing value.
@@ -89,7 +91,7 @@ public class Stack_using_Arrray {
         stack.push(1);
         stack.push(2);
         stack.push(3);
-        stack.push(4);
+        stack.push(5);
 
         System.out.println("top element is " + stack.peek());
         System.out.println("the size is :" + stack.size() );

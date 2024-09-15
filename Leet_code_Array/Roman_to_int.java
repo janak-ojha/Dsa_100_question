@@ -1,8 +1,6 @@
 package Leet_code_Array;
-
 import java.util.HashMap;
 import java.util.Map;
-
 public class Roman_to_int {
     static int rs(String s)
     {
@@ -14,7 +12,6 @@ public class Roman_to_int {
         romap.put('C',100);
         romap.put('D',500);
         romap.put('M', 100);
-        
         int total =0;
         int n = s.length();
         for( int i=0;i<n;i++)
@@ -28,7 +25,6 @@ public class Roman_to_int {
             }
         }
         return total;
-
     }
     public static void main(String[] args) {
         String s = "IX";
