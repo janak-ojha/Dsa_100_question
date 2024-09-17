@@ -3,31 +3,28 @@ package Array;
 import java.util.ArrayList;
 import java.util.HashSet;
 
-public class Common_element_two_array {
-    public static ArrayList<Integer> findcomon(int arr1 []  ,int arr2[])
-    {
-        HashSet<Integer> jk= new HashSet<>();
-        for(int element: arr1)
-        {
-            jk.add(element);
-        }
+import Linked_List.linked_list;
 
-        ArrayList<Integer> common = new ArrayList<>();
-        for(int ele: arr2)
+public class Common_element_two_array {
+
+    static void commoneele(int arr1[],int arr2[])
+    {
+        for(int i=0;i<arr1.length;i++)
         {
-            if(jk.contains(ele))
+            for(int j=0;j<arr2.length;j++)
             {
-                common.add(ele);
+                if(arr1[i] == arr2[j])
+                {
+                    System.out.print(arr1[i]+" ");
+                }
+               
             }
         }
-        return common;
-
     }
     public static void main(String[] args) {
         int arr[] = {1,2,3,4,5};
         int arr1[] = {2,3,4,5,8};
-        ArrayList<Integer> jk = findcomon(arr, arr1);
-        System.out.println("the common ele aree:" + jk);
+        commoneele(arr, arr1);
         
     }
     
