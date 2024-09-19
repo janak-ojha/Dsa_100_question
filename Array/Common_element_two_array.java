@@ -1,10 +1,5 @@
 package Array;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-
-import Linked_List.linked_list;
-
 public class Common_element_two_array {
 
     static void commoneele(int arr1[],int arr2[])
