@@ -1,7 +1,7 @@
 package Sorting;
 // Best case :(nlogn): for spliting it takes logn by pivot and partision it takes o(n)
 // Average case : Best case
-// Worst Case O(n2): when pivot element is smallest and largest.
+// Worst Case O(n2): when pivot element is smallest and largest. if array is already sorded ascending  or descending
 public class Quick_sort {
     static int partition(int arr[], int low, int high) {
         int pivot = arr[high];
