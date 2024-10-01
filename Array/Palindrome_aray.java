@@ -5,7 +5,7 @@ public class Palindrome_aray {
         int f=0;
         int l= arr.length-1;
         while (f<=l) {
-            if(arr[f] != arr[l])
+            if(arr[f] != arr[l])  
             {
                 p=false;  
             }

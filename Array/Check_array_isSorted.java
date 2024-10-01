@@ -11,8 +11,7 @@ public class Check_array_isSorted {
             
             if(arr[i]<arr[i+1])
             {
-                ascending=true;
-               
+                ascending=true; 
             }
             if(arr[i]>arr[i+1])
             {
