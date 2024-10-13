@@ -1,6 +1,6 @@
 package Recursion;
 
-public class Recursion_binary_search {
+public class Recursion_Linear_search {
 
     //find index
     static int Recursio(int arr[],int target,int idx)
