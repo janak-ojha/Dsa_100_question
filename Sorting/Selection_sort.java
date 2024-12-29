@@ -7,12 +7,12 @@ public class Selection_sort{
         for(int i=0;i<=n-1;i++)
         {
             int min_index=i;
-            for( int j=i+1;j<=n-1;j++)
-            if(arr[min_index]>arr[j])
+            for( int j=i+1;j<=n-1;j++) 
+            if(arr[min_index]>arr[j]) 
             {
               min_index=j;                
             }
-            int temp =arr[min_index];
+            int temp =arr[min_index]; 
             arr[min_index]=arr[i];
             arr[i]=temp;
         }

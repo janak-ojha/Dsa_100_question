@@ -1,5 +1,4 @@
 package Recursion;
-
 public class Sum_of_arr_recursion {
     static int sum(int arr[],int idx)
     {
@@ -7,8 +6,7 @@ public class Sum_of_arr_recursion {
         {
             return 0;
         }
-        return arr[idx]+sum(arr, idx+1);
-
+        return arr[idx]+sum(arr,idx+1);
     }
     public static void main(String[] args) {
         int arr[]={1,2,3,4,10};

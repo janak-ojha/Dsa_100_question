@@ -6,7 +6,7 @@ public class Decimal_to_binary {
             return "0";
         }
         StringBuilder  binary = new StringBuilder();
-        while (decimal>0) {
+        while (decimal>0){
             int remainder = decimal%2;
             binary.append(remainder);
             decimal=decimal/2;

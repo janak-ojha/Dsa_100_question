@@ -18,7 +18,7 @@ public class Common_element_two_array {
     }
     public static void main(String[] args) {
         int arr[] = {1,2,3,4,5};
-        int arr1[] = {2,3,4,5,8};
+        int arr1[] = {2,3,4,5,5};
         commoneele(arr, arr1);
         
     }

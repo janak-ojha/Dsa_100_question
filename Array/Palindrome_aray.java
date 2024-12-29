@@ -14,10 +14,10 @@ public class Palindrome_aray {
         }     
         if(p)
         {
-            System.out.println("is palindrome");
+            System.out.println("is palindrome");  
         }
         else{
-            System.out.println("not palindrome");
+            System.out.println("not palindrome");  
         }
     }
     public static void main(String[] args) {

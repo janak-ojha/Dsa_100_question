@@ -1,7 +1,5 @@
 package Recursion;
-
 public class Recursion_Linear_search {
-
     //find index
     static int Recursio(int arr[],int target,int idx)
     {
@@ -13,9 +11,6 @@ public class Recursion_Linear_search {
         }
         return Recursio(arr,target,idx+1);
     }
-
-
-
     //find all index search
     static void find(int arr[] ,int target,int idx)
     {

@@ -1,6 +1,6 @@
-package Array;
-public class Reverse_of_array {
-    static void revr(int[] arr)
+package Array;  
+public class Reverse_of_array {  
+    static void revr(int[] arr)  
     {
         int start=0;  
         int end=arr.length-1;  

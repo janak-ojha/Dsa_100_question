@@ -10,7 +10,7 @@ public class Square_no_using_recursion {
         return base*(pow(base, exponent-1));
     }
     public static void main(String[] args) {
-        
+         System.out.println(pow(2, 3));
     }
     
 }

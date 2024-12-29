@@ -1,34 +1,40 @@
 package Array;
 
 public class Check_array_isSorted {
-    static void isSorted(int arr[])
+    static boolean Asend(int arr[])
     
     {
-        boolean ascending = false;
-        boolean descending = false;
+        
         for(int i=0;i<arr.length-1;i++)
         {
             
-            if(arr[i]<arr[i+1])
-            {
-                ascending=true; 
-            }
             if(arr[i]>arr[i+1])
             {
-                descending = true;
+                return false;
+            }
+           
+        }
+     return true;
+       
+    }
+    static boolean Descend(int arr[])
+    {
+        for(int j=0;j<arr.length;j++)
+        {
+            if(arr[j]<arr[j+1]){
+                return false;
             }
         }
-        if(ascending){
-            System.out.println("sorted asscendingly");
-        }
-        if(descending){
-            System.out.println("sorted descendngly");
-        }
-       
+        return true;
     }
     public static void main(String[] args) {
         int arr[]={111,12,8,7,1};
-        isSorted(arr);
+         Asend(arr);
+         if(Asend(arr)){
+            System.out.println("is Acending");
+         }else{
+            System.out.println("not ascending");
+         }
     }
     
 }

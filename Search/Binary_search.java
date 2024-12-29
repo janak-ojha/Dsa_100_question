@@ -6,8 +6,7 @@ public class Binary_search {
     static int binar(int arr[],int element){
         int start=0;
         int end =arr.length-1;
-       
-        while (start<=end) {
+        while (start<=end){
             int mid=(start+end)/2;
             if(element==mid)
             {
@@ -18,9 +17,7 @@ public class Binary_search {
             }
             else{
                 start =mid+1;
-            }
-
-            
+            }            
         }
         return -1;
     }

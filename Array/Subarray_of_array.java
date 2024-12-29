@@ -17,5 +17,24 @@ public class Subarray_of_array {
     public static void main(String[] args) {
         int arr[]={1,2,3,4,5,6};
         subarr(arr);
-    }    
+        System.out.println();
+        sub(arr);
+    }   
+    
+    
+    //optimzed using StringBuilder
+    static void sub(int arre[])
+    {
+       int n= arre.length;
+       for(int i=0;i<n;i++)
+       {
+        StringBuilder sc = new StringBuilder();
+        for(int j=i;j<n;j++)
+        {
+            sc.append(arre[j]).append(" ");
+            System.out.println(sc.toString());
+        }
+       }
+
+    }
 }

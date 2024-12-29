@@ -1,13 +1,13 @@
 public class Reverse_num {
-    static int revr(int num,int re)
+    static int revr(int num,int result)
     {
         if(num==0)
         {
-            return re;
+            return result;
         }
-        int last_digit=num % 10;
-        re=re*10+last_digit;
-        return revr( num/10,re);
+        int reminde=num % 10;
+        result=result*10+reminde;
+        return revr( num/10,result);
     }    
     public static void main(String[] args) {
       int result=revr(53, 0); 

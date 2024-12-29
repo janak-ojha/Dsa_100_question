@@ -11,13 +11,10 @@ public class Fibonacci {
             System.out.println(c);
             a=b;
             b=c;
-
         }
-    }
-    
+    }    
     public static void main(String[] args) {
        int n=10;
        fib(n);
-    }
-    
+    } 
 }
